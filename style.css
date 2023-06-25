@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121f3d;
+  color: #fff;
+}
+
+header,
+footer {
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #143c70;
+}
+
+.banner {
+  background-color: #1f3f68;
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+}
+
+section {
+  padding: 50px;
+  margin-bottom: 30px;
+  position: relative;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 33.33%;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.photo:hover {
+  transform: scale(1.1);
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  background-color: #121f3d;
+  color: #fff;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #1f3f68;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #143c70;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f3f68;
+  color: #fff;
+}
